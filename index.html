@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+           /* min=parseInt(prompt("Минимум: "));
+           max=parseInt(prompt("Mаксимум: "));
+           sum=0;
+           for (let index = min; index <= max; index++) {
+               sum+=index;
+           }
+            document.write(sum);
+            ------------------------------*/
+
+
+            /*one=prompt("Первое число: ");
+            two=prompt("Второе число: ");
+            max=1;
+            for (let index = 2; index <= one; index++) {
+                if(one%index==0 && two%index==0)
+                    max=index;
+            }
+            document.write(max);
+            ----------------------------------------*/
+
+
+
+            /*number=prompt("Введите число: ");
+            for (let index = 1; index <= number; index++) {
+                if(number%index==0)
+                      document.write(index," ");
+            }
+            --------------------------*/
+
+
+            /*number=parseInt(prompt("Введите число: "));
+            digits=1;
+            while(number>=10)
+            {
+                number/=10;
+                digits++;
+            }
+            document.write(digits);
+            --------------------------------------*/
+            
+
+            /*let negatives=0;
+            let postives=0;
+            let zeros=0;
+            let odds=0;
+            let evens=0;
+            let number;
+            for (let index = 0; index < 10; index++) {
+                number=prompt("Введите число: ");
+                if(number>0)
+                {
+                    postives++;
+                }
+                if(number<0)
+                {
+                    negatives++;
+                }
+                if(number%2==0)
+                {
+                    evens++;
+                }
+                else
+                {
+                  odds++;
+                }
+                if(number==0)
+                {
+                    postives++;
+                    zeros++;
+                }
+            }
+            document.write("Zeros: ",zeros,"<br>");
+            document.write("Positives: ",postives,"<br>");
+            document.write("Negatives: ",negatives,"<br>");
+            document.write("Odds: ",odds,"<br>");
+            document.write("Evens: ",evens,"<br>");
+            --------------------------------------------------------------------*/
+
+
+
+            /*let first;
+            let second;
+            let sign
+            flag=1
+            do
+            {
+                let result=0;
+                first=prompt("Первое число: ");
+                second=prompt("Второе число: ");
+                sign=prompt("Знак операции(+, -, /, *): ");
+                if(sign=="+")
+                {
+                    result=first+second;
+                }
+                else if(sign=="-")
+                {
+                    result=first-second;
+                }
+                else if(sign=="/")
+                {
+                    result=first.second;
+                }
+                else if(sign=="*")
+                {
+                    result=first*second;
+                }
+                document.write("Результат:",result,"<br>");
+                flag=prompt("Вы хотите продолжить? 1 - Да | 0 - Нет");
+            }
+            while(flag==1)
+            --------------------------------------------------------------------------*/
+
+
+
+            /*number=prompt("Введите число: ");
+            shift=prompt("Введите cдвиг: ");
+            digits=1;
+            let temp;
+            tempnumber=number;
+            while(tempnumber>=10)
+            {
+                tempnumber/=10;
+                digits++;
+            }
+            for (let index = 0; index < shift; index++) {
+                temp=Math.floor(number/100000);
+                left=number%100000;
+                number=(left*10)+temp;
+            }
+            document.write(number);
+            -----------------------------------*/ 
+
+
+
+            
+
+            /*let weekday=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+            let index=0;
+            let next;
+            do
+            {
+                if(index==7)
+                {
+                    index=0;
+                }
+                let currday=weekday[index];
+                if(index==0)
+                {
+                    next=confirm("Cейчас понедельник! Хотите увидеть следующий день?");
+                }
+                if(index==1)
+                {
+                    next=confirm("Cейчас вторник! Хотите увидеть следующий день?");
+                }
+                if(index==2)
+                {
+                    next=confirm("Cейчас среда! Хотите увидеть следующий день?");
+                }
+                if(index==3)
+                {
+                    next=confirm("Cейчас четверг! Хотите увидеть следующий день?");
+                }
+                if(index==4)
+                {
+                    next=confirm("Cейчас пятница! Хотите увидеть следующий день?");
+                }
+                if(index==5)
+                {
+                    next=confirm("Cейчас суббота! Хотите увидеть следующий день?");
+                }
+                if(index==6)
+                {
+                    next=confirm("Cейчас воскресенье! Хотите увидеть следующий день?");
+                }
+                index++;
+            }while(next==true);
+            ---------------------------------------------------------------*/ 
+
+
+            /*for (let index = 2; index < 10; index++) {
+                for (let j = 1; j < 11; j++) {
+                    document.write(index," * ", j, " = ",index*j,"<br>");
+                }
+                document.write("<br>")
+            }
+            ----------------------------------------------------------*/
+
+
+
+
+
+            /* let playernumber=prompt("Загдайте число от 0 до 100: ");
+            let min=0;
+            let max=100;
+            let guess=false;
+            do
+            {
+                let choice;
+                let n=(max+min)/2;
+                choice=prompt(`Ваше число больше, меньше или равно ${Math.floor(n)} ?(>, <, ==)`);
+                if(choice=='>')
+                {
+                    min=n;
+                }
+                else if(choice=='<')
+                {
+                    max=n;
+                }
+                else if(choise=='==')
+                {
+                    guess=true;
+                }
+            }
+            while(guess==false);
+                */
+
+            
+    </script>
+</body>
+</html>
